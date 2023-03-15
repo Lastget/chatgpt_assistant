@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "whisper-chat"
+version = "0.1.0"
+description = ""
+authors = ["Richard <getrt1991@gmail.com>"]
+readme = "README.md"
+packages = [{include = "whisper_chat"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+gradio = "^3.20.1"
+openai = "^0.27.1"
+ffmpeg = "^1.4"
+ffprobe = "^0.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
